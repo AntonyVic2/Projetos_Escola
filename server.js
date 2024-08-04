@@ -1,4 +1,4 @@
-// Oi Antony do futuro, lembre-se de abrir o servidor utilizando "node server.js" no terminal
+
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
