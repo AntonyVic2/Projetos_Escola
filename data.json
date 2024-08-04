@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Hubert",
+    "cpf": "123.456.789-10",
+    "consulta": "Ginecologista"
+  },
+  {
+    "nome": "Fabio",
+    "cpf": "123.456.789-11",
+    "consulta": "Ginecologista"
+  },
+  {
+    "nome": "Fabio",
+    "cpf": "123.456.789-35",
+    "consulta": "Ginecologista"
+  }
+]

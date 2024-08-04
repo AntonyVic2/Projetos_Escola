@@ -1,0 +1,49 @@
+<!-- Menu de cadastro de consulta-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Consultas</h1>
+        <nav>
+            <a href="/">Inicial</a>
+            <a href="/sobre">Sobre a Empresa</a>
+            <a href="/profissionais">Profissionais</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Agende sua Consulta</h2>
+        <form id="matricula-form">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                placeholder="Formato: xxx.xxx.xxx-xx" required>
+            <label for="consulta">Tipo de consulta:</label>
+            <select id="consulta" name="consulta" required>
+                <option value="">Selecione o tipo de consulta</option>
+                <option value="Clínico Geral">Clínico Geral.</option>
+                <option value="Dentista">Dentista.</option>
+                <option value="Pediatra">Pediatra.</option>
+                <option value="Cardiologista">Cardiologista.</option>
+                <option value="Dermatologista">Dermatologista.</option>
+                <option value="Ginecologista">Ginecologista.</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2024 - CM: New Life</p>
+</footer>
+
+</html>
